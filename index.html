@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AGILMENTE</title>
+	<link rel="shortcut icon" href="mente.jpg">
+<style>
+
+img{
+	vertical-align:middle;
+	text-decoration: right top;
+	margin: 0px;
+}
+h1{
+	font-family: georgia;
+	color: #BA55D3;
+	text-align: center ;
+	font-size: 60px;
+	text-shadow: 20px 20px #E6E6FA;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BA55D3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:hotpink;
+}
+.active {
+  background-color: red;
+}
+p{
+  text-align: justify;
+  font-size: 20px;
+  margin: 5px;
+  font-family: arial;
+}
+div.ejercicio{
+  margin-right:auto;
+  margin-left: 40%;
+}
+button{
+  border-color: green;
+  background-color: yellowgreen;
+}
+</style>
+
+</head>
+<body>
+<h1>AGILMENTE<img src="mente.jpg" width="150" height="150"></h1>
+<ul>
+  <li><a href="bachrach.html">Emociones</a></li>
+  <li><a href="creatividad.html">Creatividad</a></li>
+  <li><a href="decisiones.html">Decision</a></li>
+  <li style="float: right;"><a href="contacto.html" class="active">Contanos</a></li>
+</ul>
+<br>
+
+<p><b>ÁgilMente</b> trata sobre nuestro talento mental más preciado: la habilidad que tenemos para
+imaginarnos cosas que nunca existieron y para ser creativos.<br> 
+Muchas veces pensamos en la creatividad como algo que viene de fábrica, sólo les sucede a los otros y no nos compete demasiado.
+No obstante, nuestras vidas son definidas gracias a la creatividad humana. Tu celular, tu poema
+preferido, el sillón supercómodo donde estás sentado leyendo, la calefacción silenciosa que te
+protege del frío, aquella canción que te hace recordar a un ser querido, la pastilla para el dolor de
+cabeza.<br><br>
+ÁgilMente es una invitación a un spa cerebral para que aprendas a cuidar, mimar y volver a poner tu
+mente y creatividad en plena forma.</p><br>
+<div class="ejercicio">
+<h3 align="left">Ejercita el cerebro</h3>
+
+<button onclick="document.getElementById('myImage').src='cerebro1.jpg'">
+baja</button>
+
+<img id="myImage" src="cerebro1.jpg" style="width:200px">
+
+<button onclick="document.getElementById('myImage').src='cerebro2.jpg'">
+sube</button></div>
+
+</body>
+</html>
